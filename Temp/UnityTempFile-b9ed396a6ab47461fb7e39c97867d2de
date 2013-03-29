@@ -2,8 +2,8 @@
 -target:library
 -nowarn:0169
 -out:'Temp/Assembly-CSharp-firstpass.dll'
--r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/LinuxStandalonePlayer/Managed/UnityEngine.dll'
--define:UNITY_STANDALONE_LINUX
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/WindowsStandalonePlayer/Managed/UnityEngine.dll'
+-define:UNITY_STANDALONE_WIN
 -define:ENABLE_MICROPHONE
 -define:ENABLE_IMAGEEFFECTS
 -define:ENABLE_WEBCAM

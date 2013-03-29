@@ -1,12 +1,10 @@
 -debug
 -target:library
 -nowarn:0169
--out:'Temp/Assembly-CSharp.dll'
+-out:'Temp/Assembly-CSharp-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
--r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
--r:'Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
--define:UNITY_STANDALONE_LINUX
+-define:UNITY_STANDALONE_WIN
 -define:ENABLE_MICROPHONE
 -define:ENABLE_IMAGEEFFECTS
 -define:ENABLE_WEBCAM
@@ -29,7 +27,8 @@
 -define:UNITY_4_1
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
-'Assets/GuiScript.cs'
-'Assets/InputManager.cs'
-'Assets/TerrainGenerator.cs'
-'Assets/TerrainToolkit/TerrainToolkit.cs'
+'Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs'
+'Assets/Standard Assets/Scripts/General Scripts/ActivateTrigger.cs'
+'Assets/Standard Assets/Scripts/Utility Scripts/CombineChildren.cs'
+'Assets/Standard Assets/Scripts/Utility Scripts/MeshCombineUtility.cs'
+'Assets/Standard Assets/Water (Basic)/Sources/Scripts/WaterSimple.cs'

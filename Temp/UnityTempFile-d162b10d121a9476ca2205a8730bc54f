@@ -8,7 +8,7 @@
 -method:Main
 -out:Temp/Assembly-UnityScript.dll
 -x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
--define:UNITY_STANDALONE_LINUX
+-define:UNITY_STANDALONE_WIN
 -define:ENABLE_MICROPHONE
 -define:ENABLE_IMAGEEFFECTS
 -define:ENABLE_WEBCAM

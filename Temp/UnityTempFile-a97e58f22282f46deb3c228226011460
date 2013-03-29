@@ -8,7 +8,7 @@
 -method:Main
 -out:Temp/Assembly-UnityScript.dll
 -x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
--define:UNITY_STANDALONE_LINUX
+-define:UNITY_STANDALONE_WIN
 -define:ENABLE_MICROPHONE
 -define:ENABLE_IMAGEEFFECTS
 -define:ENABLE_WEBCAM
@@ -31,7 +31,7 @@
 -define:UNITY_4_1
 -define:DEVELOPMENT_BUILD
 -define:ENABLE_PROFILER
--r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/LinuxStandalonePlayer/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/WindowsStandalonePlayer/Managed/UnityEngine.dll'
 -r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll'
 'Assets/TerrainToolkit/TerrainToolkitEnums.js'

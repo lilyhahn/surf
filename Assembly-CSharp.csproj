@@ -44,6 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GuiScript.cs" />
+     <Compile Include="Assets\InputManager.cs" />
+     <Compile Include="Assets\PositionChecker.cs" />
      <Compile Include="Assets\TerrainGenerator.cs" />
      <Compile Include="Assets\TerrainToolkit\TerrainToolkit.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />

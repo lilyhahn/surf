@@ -8,7 +8,7 @@
 -method:Main
 -out:Temp/Assembly-UnityScript-firstpass.dll
 -x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
--define:UNITY_STANDALONE_LINUX
+-define:UNITY_STANDALONE_WIN
 -define:ENABLE_MICROPHONE
 -define:ENABLE_IMAGEEFFECTS
 -define:ENABLE_WEBCAM
@@ -29,7 +29,12 @@
 -define:ENABLE_DUCK_TYPING
 -define:UNITY_4_1_2
 -define:UNITY_4_1
--r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/LinuxStandalonePlayer/Managed/UnityEngine.dll'
+-define:UNITY_64
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-i:UnityEditor
 'Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js'
 'Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js'
 'Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js'
